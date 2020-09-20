@@ -1,0 +1,80 @@
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical" android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+
+    <FrameLayout
+        android:id="@+id/fragment_container_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="10"
+         />
+
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        />
+
+
+    <TextView
+        android:id="@+id/totalCoastCart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="right"
+
+        android:layout_weight="0"
+
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/buttonPaymentAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:layout_weight="0"
+
+        android:text="Payment" />
+
+
+
+
+</LinearLayout>
+
+
+
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--android:orientation="vertical" android:layout_width="match_parent"-->
+<!--android:layout_height="match_parent">-->
+
+
+<!--&lt;!&ndash;        <fragment android:name="pmf.todolistguiintent.ListActivity"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:id="@+id/headlines_fragment"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_width="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_height="match_parent" />&ndash;&gt;-->
+
+<!--<Button-->
+<!--    android:id="@+id/buttonAdd"-->
+<!--    android:layout_width="wrap_content"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:layout_weight="0"-->
+<!--    android:text="@string/add" />-->
+
+<!--&lt;!&ndash;    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:id="@+id/fragment_container"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_width="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_height="match_parent" />&ndash;&gt;-->
+<!--<fragment android:name="pmf.todolistguiintent.ListActivity"-->
+<!--    android:id="@+id/headlines_fragment"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent" />-->
+
+
+<!--</LinearLayout>-->
